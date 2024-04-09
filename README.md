@@ -14,3 +14,6 @@
 | Almonds | 7 | pc | 4 | 49 | 2 | 4 | 0.7 | 35 | 1.5 |
 | Roasted Channa | 100 | g | 8 | 160-180 | 27-30 | 2-3 | 6-8 | 0 | 7 |
 
+
+
+![image](https://github.com/rkumar0206/temp/assets/63965898/80242041-eb01-48c7-9c6c-13269c5a0f18)
