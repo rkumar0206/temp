@@ -17,3 +17,18 @@
 
 
 ![image](https://github.com/rkumar0206/temp/assets/63965898/80242041-eb01-48c7-9c6c-13269c5a0f18)
+
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
+import java.io.StringReader;
+
+public class XmlToJavaConverter {
+    public static Person convertXmlToJava(String xml) throws JAXBException {
+        JAXBContext context = JAXBContext.newInstance(Person.class);
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+        return (Person) unmarshaller.unmarshal(new StringReader(xml));
+    }
+}
+
